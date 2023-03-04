@@ -79,3 +79,24 @@ button:hover {
     cursor: pointer;
     transform: translateY(-2px);
 }
+.popup{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 12vmin;
+    }
+#new-game{
+    font-size: 0.6em;
+    padding: 0.5em 1em;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 0.2em;
+    border: none;
+}
+

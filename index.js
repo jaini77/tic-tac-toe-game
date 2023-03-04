@@ -1,8 +1,7 @@
-let playerText = document.getElementById('playerText')
-let restartBtn = document.getElementById('restartBtn')
-let boxes = Array.from(document.getElementsByClassName('box'))
-
-let winnerIndicator = getComputedStyle(document.body).getPropertyValue('--winning-blocks')
+let playerText = document.getElementById('playerText');
+let restartBtn = document.getElementById('restartBtn');
+let boxes = Array.from(document.getElementsByClassName('box'));
+let winnerIndicator = getComputedStyle(document.body).getPropertyValue('--winning-blocks');
 
 const O_TEXT = "O"
 const X_TEXT = "X"
@@ -66,5 +65,4 @@ function restart() {
     })
     currentPlayer = X_TEXT
 }
-
 startGame()
